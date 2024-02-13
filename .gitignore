@@ -2,6 +2,10 @@
 build
 build-*
 
+# Our local build outputs
+/bin/
+/bin-int
+
 # Visual Studio clutter
 _ReSharper*
 *.sdf
