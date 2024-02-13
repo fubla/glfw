@@ -1,5 +1,3 @@
--- Not supporting Linux
-
 project "GLFW"
 	kind "StaticLib"
 	language "C"
