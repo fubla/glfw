@@ -26,6 +26,11 @@ project "GLFW"
 		"src/window.c",
 	}
 
+    externalincludedirs
+    {
+        "include/GLFW"
+    }
+
 	filter "system:macosx"
 		pic "On"
 
